@@ -39,7 +39,7 @@ public class Quadrilateral {
 		boolean diagonalsEqual = (ac == bd);
 		boolean perpendicular = isPerpendicular(A, B, C) && isPerpendicular(B, C, D) &&
 				isPerpendicular(C, D, A) && isPerpendicular(D, A, B);
-		
+		 
 		return oppositeSidesEqual && diagonalsEqual && perpendicular;
 	}
 	
