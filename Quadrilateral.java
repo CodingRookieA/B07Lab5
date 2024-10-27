@@ -21,7 +21,7 @@ public class Quadrilateral {
 	    return v1[0] * v2[0] + v1[1] * v2[1];
 	}
 	
-	private boolean isPerpendicular(Point p1, Point p2, Point p3) {
+	boolean isPerpendicular(Point p1, Point p2, Point p3) {
 	    double[] v1 = {p2.x - p1.x, p2.y - p1.y};
 	    double[] v2 = {p3.x - p2.x, p3.y - p2.y};
 	    return dotProduct(v1, v2) == 0;
