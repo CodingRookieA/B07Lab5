@@ -3,7 +3,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 
-public class QuadrilateralTest {
+public class TestQuadrilateral {
 
     // Test the perimeter method with larger values
     @Test
