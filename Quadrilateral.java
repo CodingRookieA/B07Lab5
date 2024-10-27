@@ -1,5 +1,4 @@
 package lab4;
-
 public class Quadrilateral {
 	Point A;
 	Point B;
