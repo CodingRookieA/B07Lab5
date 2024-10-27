@@ -18,7 +18,7 @@ public class Quadrilateral {
 		return A.distance(B) + B.distance(C) + C.distance(D) + D.distance(A);
 	}
 	
-	private double dotProduct(double[] v1, double[] v2) {
+	double dotProduct(double[] v1, double[] v2) {
 	    return v1[0] * v2[0] + v1[1] * v2[1];
 	}
 	
